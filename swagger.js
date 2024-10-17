@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'User API'
   },
-  host: 'insert-render-link-here',
+  host: 'project5-8.onrender.com',
   schemes: ['https']
 };
 

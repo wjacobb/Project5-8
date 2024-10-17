@@ -12,8 +12,8 @@ POST http://localhost:8080/user HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"John",
-    "lastName":"Doe",
+    "firstName":"Jimmy",
+    "lastName":"Neutron",
     "email":"fakemail@test.com",
     "favoriteColor":"Blue",
     "birthday":"01/01/2000"
