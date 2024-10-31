@@ -29,8 +29,8 @@ content-type: application/json
     "lastName":"Doe",
     "email":"test@gmail.com",
     "favoriteColor":"Blue",
-    "birthday":"01/01/2000"
+    "birthday":"01/02/2000"
 }
 
 ### DELETE Contact
-DELETE http://localhost:8080/user/67119dd66907cdb5dfc306a6 HTTP/1.1
+DELETE http://localhost:8080/user/671ad20c9496b63e12353814 HTTP/1.1
