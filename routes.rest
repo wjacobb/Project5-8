@@ -4,33 +4,68 @@ GET http://localhost:8080/user
 
 
 ### Get contact by id
-GET http://localhost:8080/user/67104a601b3000969cb77da4
-
+GET http://localhost:8080/user/672aafba8d2ed65cecbffa8d
 
 ### Create contact
 POST http://localhost:8080/user HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Jimmy",
-    "lastName":"Neutron",
+    "firstName":"James",
+    "middleName":"Isaac",
+    "lastName":"Newton",
     "email":"fakemail@test.com",
     "favoriteColor":"Blue",
-    "birthday":"01/01/2000"
+    "birthday":"01/01/2000",
+    "pet":"Horse"
 }
 
 
 ### PUT contact
-PUT http://localhost:8080/user/67104a601b3000969cb77da4 HTTP/1.1
+PUT http://localhost:8080/user/672aafba8d2ed65cecbffa8d HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"John",
-    "lastName":"Doe",
+    "firstName":"Jimmy",
+    "middleName":"Isaac",
+    "lastName":"Newtron",
     "email":"test@gmail.com",
     "favoriteColor":"Blue",
-    "birthday":"01/02/2000"
+    "birthday":"01/02/2000",
+    "pet":"Horse"
+}
+
+### Get contact by id
+GET http://localhost:8080/user_cars
+
+
+### Get contact by id
+GET http://localhost:8080/user_cars/672ab7ac1dab5af721eb0815
+
+
+###Create car
+POST http://localhost:8080/user_cars HTTP/1.1
+content-type: application/json
+
+{
+    "make":"Jimmys new",
+    "model":"factory",
+    "mobility":"self-driving"
+}
+
+
+### PUT contact
+PUT http://localhost:8080/user_cars/672ab7ac1dab5af721eb0815 HTTP/1.1
+content-type: application/json
+
+{
+    "make":"Jimmys",
+    "model":"Homemade",
+    "mobility":"Self-driving"
 }
 
 ### DELETE Contact
-DELETE http://localhost:8080/user/671ad20c9496b63e12353814 HTTP/1.1
+DELETE http://localhost:8080/user/672be29507be5a72b7a6d237 HTTP/1.1
+
+### Delete car
+DELETE http://localhost:8080/user_cars/672ab7ac1dab5af721eb0815 HTTP/1.1
